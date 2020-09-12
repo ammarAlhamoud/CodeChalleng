@@ -16,7 +16,7 @@ namespace CodeChalleng
         }
 
         /// <summary>
-        /// Calls the challeng TowSum
+        /// Calls the challeng TowSum 
         /// </summary>
         public static void GetTwoSum()
         {
