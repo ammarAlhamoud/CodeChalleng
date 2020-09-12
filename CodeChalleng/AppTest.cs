@@ -21,9 +21,13 @@ namespace CodeChalleng
         public static void GetTwoSum()
         {
             TwoSum twoSum = new TwoSum();
+            ChallengArray array = new ChallengArray();
+            int[]  nums = array.CreateArray(20);
+            nums = array.FillArray(0, 20, nums);
+            Console.Write("Random Array\t" + array.ArrayToString(nums) + "\n");
 
-            int[] nums = new int[] { 2, 7, 11, 15, 1, 12, 15, 22, 103, 66 };
-            int target = 25;
+            int target = 7;
+            Console.Write("Target: " + target + "\n");
 
             Console.WriteLine("By Ammer:\t");
             twoSum.GetResultByAmmar(nums, target);
