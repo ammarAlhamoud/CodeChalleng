@@ -23,7 +23,7 @@ namespace CodeChalleng
             TwoSum twoSum = new TwoSum();
 
             int[] nums = new int[] { 2, 7, 11, 15, 1, 12, 15, 22, 103, 66 };
-            int target = 23;
+            int target = 25;
 
             Console.WriteLine("By Ammer:\t");
             twoSum.GetResultByAmmar(nums, target);
@@ -32,6 +32,11 @@ namespace CodeChalleng
 
             Console.WriteLine("Brute Force:\t");
             twoSum.GetResultBruteForce(nums, target);
+
+            Console.WriteLine("---");
+
+            Console.WriteLine("Hash table:\t");
+            twoSum.GetResultByHashMap(nums, target);
         }
     }
 }

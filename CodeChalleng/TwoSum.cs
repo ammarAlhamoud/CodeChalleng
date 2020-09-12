@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CodeChalleng
@@ -24,14 +25,8 @@ namespace CodeChalleng
             for(int firstIndex=0; firstIndex<nums.Length; firstIndex++)
             {
                 result[0] = firstIndex;
-                int secondIndex = firstIndex + 1;
-                if (secondIndex > nums.Length-1)
-                {
-                    Console.WriteLine("Error: Out of rang");
-                    throw new IndexOutOfRangeException();
-                }
-
-                for(;secondIndex<nums.Length; secondIndex++)
+                
+                for(int secondIndex = firstIndex + 1; secondIndex<nums.Length; secondIndex++)
                 {
                     int sum = nums[firstIndex] + nums[secondIndex];
                     if (sum == target)
@@ -65,6 +60,37 @@ namespace CodeChalleng
                         Console.WriteLine("The Result is: [" + i + ", " + j + "]");
                         return new int[] { i, j };
                     }
+                }
+            }
+
+            Console.WriteLine("There is no answer for the given array");
+            return null;
+        }
+
+        /// <summary>
+        /// Return two indecies of the result array
+        /// using Hash table (Dictionary)
+        /// </summary>
+        /// <param name="nums">The given Array</param>
+        /// <param name="target">The sum we are looking for</param>
+        /// <returns>An Array with two indeces of elements from nums their sum equals the given target</returns>
+        public int[] GetResultByHashMap(int[] nums, int target)
+        {
+            var map = new Dictionary<int, int>();
+
+            for(int i = 0; i < nums.Length; i++)
+            {
+                map.Add(i, nums[i]);
+            }
+
+            for(int i = 0; i<nums.Length; i++)
+            {
+                int complement = target - nums[i];
+                var j = map.FirstOrDefault(x => x.Value == complement).Key;
+                if (map.ContainsValue(complement) && j != i)
+                {
+                    Console.WriteLine("The Result is: [" + i + ", " + j + "]");
+                    return new int[] {i, j};
                 }
             }
 
