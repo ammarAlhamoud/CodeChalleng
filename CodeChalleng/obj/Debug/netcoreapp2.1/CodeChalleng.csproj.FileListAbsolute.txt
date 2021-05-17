@@ -1,0 +1,12 @@
+D:\CodeChallengesC_sharp\CodeChalleng\bin\Debug\netcoreapp2.1\CodeChalleng.deps.json
+D:\CodeChallengesC_sharp\CodeChalleng\bin\Debug\netcoreapp2.1\CodeChalleng.runtimeconfig.json
+D:\CodeChallengesC_sharp\CodeChalleng\bin\Debug\netcoreapp2.1\CodeChalleng.runtimeconfig.dev.json
+D:\CodeChallengesC_sharp\CodeChalleng\bin\Debug\netcoreapp2.1\CodeChalleng.dll
+D:\CodeChallengesC_sharp\CodeChalleng\bin\Debug\netcoreapp2.1\CodeChalleng.pdb
+D:\CodeChallengesC_sharp\CodeChalleng\obj\Debug\netcoreapp2.1\CodeChalleng.AssemblyInfoInputs.cache
+D:\CodeChallengesC_sharp\CodeChalleng\obj\Debug\netcoreapp2.1\CodeChalleng.AssemblyInfo.cs
+D:\CodeChallengesC_sharp\CodeChalleng\obj\Debug\netcoreapp2.1\CodeChalleng.csproj.CoreCompileInputs.cache
+D:\CodeChallengesC_sharp\CodeChalleng\obj\Debug\netcoreapp2.1\CodeChalleng.dll
+D:\CodeChallengesC_sharp\CodeChalleng\obj\Debug\netcoreapp2.1\CodeChalleng.pdb
+D:\CodeChallengesC_sharp\CodeChalleng\obj\Debug\netcoreapp2.1\CodeChalleng.genruntimeconfig.cache
+D:\CodeChallengesC_sharp\CodeChalleng\obj\Debug\netcoreapp2.1\CodeChalleng.csprojAssemblyReference.cache
