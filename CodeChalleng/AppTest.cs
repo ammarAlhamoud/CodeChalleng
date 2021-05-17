@@ -15,6 +15,9 @@ namespace CodeChalleng
             //str_text.lengthOfLongestSubstring("abcabcbb");
             str_text.lengthOfLongestSubstring_SlidingWindow("abcabcbb");
             //GetTwoSum();
+            MedianOfTwoSortedArrays median = new MedianOfTwoSortedArrays();
+            double m = median.findMedianSortedArrays(new int[] { 1,2 }, new int[] { 3, 4 });
+            Console.WriteLine("median:" + m);
         }
 
         /// <summary>
