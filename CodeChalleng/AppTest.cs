@@ -11,8 +11,10 @@ namespace CodeChalleng
         {
             // first test for consol output
             Console.WriteLine("Hello World!");
-
-            GetTwoSum();
+            LongestSubstringWithoutRepeatingCharacters str_text = new LongestSubstringWithoutRepeatingCharacters();
+            //str_text.lengthOfLongestSubstring("abcabcbb");
+            str_text.lengthOfLongestSubstring_SlidingWindow("abcabcbb");
+            //GetTwoSum();
         }
 
         /// <summary>
