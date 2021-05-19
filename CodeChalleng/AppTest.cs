@@ -11,13 +11,15 @@ namespace CodeChalleng
         {
             // first test for consol output
             Console.WriteLine("Hello World!");
-            LongestSubstringWithoutRepeatingCharacters str_text = new LongestSubstringWithoutRepeatingCharacters();
+            //LongestSubstringWithoutRepeatingCharacters str_text = new LongestSubstringWithoutRepeatingCharacters();
             //str_text.lengthOfLongestSubstring("abcabcbb");
-            str_text.lengthOfLongestSubstring_SlidingWindow("abcabcbb");
+            //str_text.lengthOfLongestSubstring_SlidingWindow("abcabcbb");
             //GetTwoSum();
-            MedianOfTwoSortedArrays median = new MedianOfTwoSortedArrays();
-            double m = median.findMedianSortedArrays(new int[] { 1,2 }, new int[] { 3, 4 });
-            Console.WriteLine("median:" + m);
+            //MedianOfTwoSortedArrays median = new MedianOfTwoSortedArrays();
+            //double m = median.findMedianSortedArrays(new int[] { 1,2 }, new int[] { 3, 4 });
+            //Console.WriteLine("median:" + m);
+            LongestPalindromicSubstring LongPal = new LongestPalindromicSubstring();
+            Console.WriteLine("Longest Palindromic Substring: " + LongPal.LongestPalindrome_Manacher("aracecarb"));
         }
 
         /// <summary>
